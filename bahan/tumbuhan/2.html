@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<!-- Mirrored from kemagnetan.github.io/bahan/migrasi hewan/2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Dec 2022 10:28:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Kemagnetan dan pemanfaatannya</title>
+    <link rel="stylesheet" href="../navigasi.css">
+    <link rel="stylesheet" href="../../border.css">
+    <script src="../../../code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../../../kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body onload="drop();">
+  
+  <!--header untuk judul sub bab-->
+  <div class="header">
+      <center>A. Pemanfaatan Medan Magnet pada Migrasi Hewan</center>
+  </div>
+  <!-- navigasi sidebar (sebagai navigasi di sebelah kiri)-->
+  <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+      <nav class="sidebar">
+        <div class="text"><img src="../gambar/LOGO.png"></div>
+        <ul>
+          <li class="beranda"><a href="../../index.php">Beranda</a></li>
+          <li>
+            <a href="#" style="  color: cyan; background: #389761;" class="migrasi">Migrasi Hewan
+              <span class="fas fa-caret-down first"></span>
+            </a>
+            <ul class="migrasi-tampil">
+              <li><a style="  color: cyan;"  href="1.html">Materi</a></li>
+              <li><a href="Kuis/kuis1.html">Kuis</a></li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#" class="kemagnetan">Teori Kemagnetan
+              <span class="fas fa-caret-down second"></span>
+            </a>
+            <ul class="kemagnetan-tampil">
+              <li><a href="../teori%20kemagnetan/1/1.html">Konsep Gaya Magnet</a></li>
+              <li><a href="../teori%20kemagnetan/2/1.html">Teori Kemagnetan bumi</a></li>
+              <li><a href="../teori%20kemagnetan/3/1.html">Induksi magnet dan gaya lorentz</a></li>
+              <li><a href="../teori%20kemagnetan/4/1.html">Induksi elektromagnetik</a></li>
+              <li><a href="../teori%20kemagnetan/Kuis/kuis2.html">Kuis 2</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="produk">Produk kemagnetan
+              <span class="fas fa-caret-down tiga"></span>
+            </a>
+            <ul class="produk-tampil">
+              <li><a href="../produk%20teknologi/1.html">Materi</a></li>
+              <li><a href="../produk%20teknologi/Kuis/kuis3.html">Kuis</a></li>
+            </ul>
+          </li>
+          <li class="beranda"><a href="../Evaluasi/eva.html">EVALUASI</a></li>
+
+        </ul>
+    </nav>
+    <!-- javascript untuk navigasi-->
+    <script>
+      function drop(){
+        $('nav ul .migrasi-tampil').toggleClass("show");
+        $('nav ul .first').toggleClass("rotate");
+       }
+    </script>
+    
+    <!--class untuk konten-->
+    <div class="content">
+      <br>
+      <h3> <img src="../gambar/latihan.png"><p class="textjudul">Mari Mencoba</p></h3>
+   <div class="canvas">
+       <div class="canvas" style="background-color: #389761; color: white;">
+         <p><b>Petunjuk :</b></p>
+           <ol type="1" style="padding-left: 15px;">
+             <li>Soal berupa pilihan ganda berjumlah lima soal.</li>
+             <li>Gunakan tombol dibawah soal untuk beralih ke soal lainnya.</li>
+             <li>Pada saat jawaban dipilih, hasil benar atau salah akan langsung terlihat.</li>
+           </ol>
+        </div>
+       <br>
+    <div class="canvas" style="background-color:white; color: black;">   
+    <!--Soal 1-->
+    <div class="soal" id="soal1sow" >
+      <div class="pertanyaan"><b>Burung dapat memanfaatkan medan magnet bumi untuk bermigrasi karena  ....</b></div> 
+        <table >
+        <tr>
+          <td>
+            <label><div class="pilihan"  style="cursor: pointer;" onclick="cek1()" > 
+           <input type="radio" name="soal" id="qsoal1" /><span> Memiliki zat kimia</span></label>
+
+            </div></td>
+          <td>
+            <div style="display: none; padding-top:5px;" id="s1"><img style="width: 30px;" src="../gambar/salah.png"></div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td><label><div class="pilihan"  style="cursor: pointer;" onclick="cek1()" > 
+            <input type="radio" name="soal" id="soal2"/><span> Mengikuti arah angin	 </span></label>
+          </div> </td>
+          
+           <td>
+            <div style="display: none;padding-top:5px;" id="s2"><img style="width: 30px;" src="../gambar/salah.png"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label><div class="pilihan"  style="cursor: pointer;" onclick="cek1()"> 
+            <input type="radio" name="soal"  id="soal3" /><span> Memiliki magnetite</span></label>
+          </div></td>
+          <td>
+            <div style="display: none; padding-top:5px;" id="s3"><img style="width: 30px;" src="../gambar/benar.png"></div>
+          </td>
+        </tr>
+        <tr>
+          <td><label><div class="pilihan"  style="cursor: pointer;" onclick="cek1()" > 
+            <input type="radio" name="soal"  id="soal4" /><span> Memiliki mineral Fe3S4  </span></label>
+          </div></td>
+          <td>
+            <div style="display: none;padding-top:5px;" id="s4"><img style="width: 30px;" src="../gambar/salah.png"></div>
+          </td>
+        </tr>
+      </table>
+      <br>
+     
+    </div>
+ 
+ <!--Soal 2-->
+ <div class="soal" id="soal2sow" style="display:none;">
+  <div class="pertanyaan"><b>Ikan salmon dapat hidup di sungai dan juga laut. Berikut yang merupakan alur perjalanan migrasi ikan salmon adalah ....</b></div>
+      <table cellpadding="10">
+      <tr>
+        <td><label><div class="pilihan"  style="cursor: pointer;"> 
+          <input type="radio" name="soal2"  id="q2soal1" onclick="cek2()"/><span> Menetas di laut, tumbuh di laut, kembali ke sungai	</span></label>
+        </div></td>
+        <td>
+          <div style="display: none;" id="q2s1"><img style="width: 30px;" src="../gambar/salah.png"></div>
+        </td>
+      </tr>
+      <tr>
+        <td><label><div class="pilihan"  style="cursor: pointer;">
+          <input type="radio" name="soal2" id="q2soal2" onclick="cek2()"/><span> Menetas di sungai, tumbuh di laut, kembali ke sungai	 </span></label>
+        </div></td>
+        <td>
+          <div style="display: none;" id="q2s2"><img style="width: 30px;" src="../gambar/benar.png"></div>
+        </td>
+      </tr>
+      <tr>
+        <td><label><div class="pilihan"  style="cursor: pointer;">
+          <input type="radio" name="soal2"  id="q2soal3" onclick="cek2()"/><span> Menetas di sungai, tumbuh di sungai, kembali ke sungai</span></label>
+        </div></td>
+        <td>
+          <div style="display: none;" id="q2s3"><img style="width: 30px;" src="../gambar/salah.png"></div>
+        </td>
+      </tr>
+      <tr>
+        <td><label><div class="pilihan"  style="cursor: pointer;">
+          <input type="radio" name="soal2"  id="q2soal4" onclick="cek2()"/><span> Menetas di laut, tumbuh di sungai, kembali ke sungai  </span></label>
+        </div></td>
+        <td>
+          <div style="display: none;" id="q2s4"><img style="width: 30px;" src="../gambar/salah.png"></div>
+        </td>
+      </tr>
+      </table>
+    <br>
+  </div>
+
+  <!--Soal 3-->
+  <div class="soal" id="soal3sow" style="display:none;">
+    <div class="pertanyaan"><b>Penyu bermigrasi menggunakan medan magnet dengan kemampuan yang berbeda dengan hewan lain, yaitu   ....</b></div>
+    <table cellpadding="10">
+    <tr>
+      <td><label><div class="pilihan"  style="cursor: pointer;">
+        <input type="radio" name="soal3"  id="q3soal1" onclick="cek3()"/><span> Memanfaatkan magnetite pada tubuhnya</span></label>
+      </div></td>
+      <td>
+        <div style="display: none;" id="q3s1"><img style="width: 30px;" src="../gambar/salah.png"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><label><div class="pilihan"  style="cursor: pointer;">
+        <input type="radio" name="soal3" id="q3soal2" onclick="cek3()"/><span> Kemampuan bermigrasi secara sendiri-sendiri </span></label>
+      </div></td>
+      <td>
+        <div style="display: none;" id="q3s2"><img style="width: 30px;" src="../gambar/salah.png"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><label><div class="pilihan"  style="cursor: pointer;">
+        <input type="radio" name="soal3"  id="q3soal3" onclick="cek3()"/><span> Kemampuan bermigrasi secara berkelompok</span></label>
+      </div></td>
+      <td>
+        <div style="display: none;" id="q3s3"><img style="width: 30px;" src="../gambar/salah.png"></div>
+      </td>
+    </tr>
+    <tr>
+      <td><label><div class="pilihan"  style="cursor: pointer;">
+        <input type="radio" name="soal3"  id="q3soal4" onclick="cek3()"/><span> Menentukan garis bujur seperti kompas </span></label>
+      </div></td>
+      <td>
+        
+        <div style="display: none;" id="q3s4"><img style="width: 30px;" src="../gambar/benar.png"></div>
+      </td>
+    </tr>
+  </table>
+
+<br>
+</div>
+<!--Soal 4-->
+<div class="soal" id="soal4sow" style="display:none;">
+  <div class="pertanyaan"><b>Lobster duri juga merupakan salah satu hewan yang memanfaatkan medan magnet dalam bermigrasi. Tempat tujuan lobster duri bermigrasi adalah   ....</b></div>
+  <table >
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal4"  id="q4soal1" onclick="cek4()"/><span> Lautan yang dalam</span></label>
+    </div></td>
+    <td>
+      <div style="display: none;" id="q4s1"><img style="width: 30px;" src="../gambar/salah.png"></div>
+    </td>
+  </tr>
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal4" id="q4soal2" onclick="cek4()"/><span> Lautan yang hangat dan tenang </span></label>
+    </div></td>
+    <td>
+      
+      <div style="display: none;" id="q4s2"><img style="width: 30px;" src="../gambar/benar.png"></div>
+    </td>
+  </tr>
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal4"  id="q4soal3"  onclick="cek4()"/><span> Pinggir pantai</span></label>
+    </div></td>
+    <td>
+      <div style="display: none;" id="q4s3"><img style="width: 30px;" src="../gambar/salah.png"></div>
+    </td>
+  </tr>
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal4"  id="q4soal4"  onclick="cek4()"/><span> Sungai ari tawar </span></label>
+    </div></td>
+    <td>
+      <div style="display: none;" id="q4s4"><img style="width: 30px;" src="../gambar/salah.png"></div>
+    </td>
+  </tr>
+</table>
+</div>
+<!--soal 5-->
+<div class="soal" id="soal5sow" style="display:none;">
+  <div class="pertanyaan"><b>Dalam tubuh bakteri Magnetotactic Bacteria (MTB) terdapat organel khusus yang disebut magnetosome. Senyawa yang terkandung dalam magnetosome adalah ....</b></div>
+  <table cellpadding="10">
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal5"  id="q5soal1"  onclick="cek5()"/><span> Magnetotactic bacteria</span></label>
+    </div></td>
+    <td>
+      <div style="display: none;" id="q5s1"><img style="width: 30px;" src="../gambar/salah.png"></div>
+    </td>
+  </tr>
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal5" id="q5soal2" onclick="cek5()"/><span> Basitrasin dan penicilin	 </span></label>
+    </div></td>
+    <td>
+      <div style="display: none;" id="q5s2"><img style="width: 30px;" src="../gambar/salah.png"></div>
+    </td>
+  </tr>
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal5"  id="q5soal3" onclick="cek5()"/><span> Amfoterisin dan vankomisin</span></label>
+    </div></td>
+    <td>
+      <div style="display: none;" id="q5s3"><img style="width: 30px;" src="../gambar/salah.png"></div>
+    </td>
+  </tr>
+  <tr>
+    <td><label><div class="pilihan"  style="cursor: pointer;">
+      <input type="radio" name="soal5"  id="q5soal4" onclick="cek5()"/><span> Magnetite dan greigite </span></label>
+    </div></td>
+    <td>
+      
+      <div style="display: none;" id="q5s4"><img style="width: 30px;" src="../gambar/benar.png"></div>
+    </td>
+  </tr>
+  </table>
+</div>
+</div>
+<br>
+  <div id="jawabansalah" class="canvas" style="display:none;background-color:rgb(255, 255, 255);border-color:red;color: rgb(255, 0, 0);">
+    <h2>Jawaban Salah</h2>
+    Sayang sekali. Silahkan pelajari kembali materi pada halaman sebelumnya dengan penuh semangat.
+  </div>
+  <div id="jawabanbenar1" class="canvas" style=" display:none; background-color:rgb(255, 255, 255);border-color:green;color: green;">
+    <h2>Jawaban benar</h2>
+    Burung merpati, burung layang-layang, dan elang memanfaatkan medan magnet bumi untuk bermigrasi dengan menggunakan magnetite (Mineral besi bermagnet) yang terletak di dalam tubuhnya.
+  </div>
+  <div id="jawabanbenar2" class="canvas" style=" display:none; background-color:rgb(255, 255, 255);border-color:green;color: green;">
+    <h2>Jawaban benar</h2>
+    Ikan salmon memiliki kemampuan untuk kembali ke aliran sungai air tawar tempat awal mereka menetas dan tumbuh setelah berenang ribuan kilometer mengarungi lautan dengan kemampuan mendeteksi medan magnet.  </div>
+  <div id="jawabanbenar3" class="canvas" style=" display:none; background-color:rgb(255, 255, 255);border-color:green;color: green;">
+    <h2>Jawaban benar</h2>
+  Penyu salah satu hewan yang dapat memanfaatkan medan magnet bumi dalam bermigrasi dan dapat menentukan garis bujur seperti kompas.
+  </div>
+  <div id="jawabanbenar4" class="canvas" style=" display:none; background-color:rgb(255, 255, 255);border-color:green;color: green;">
+    <h2>Jawaban benar</h2>
+    Lobster duri migrasi dari lepas pantai menuju lautan lepas yang lebih hangat dan tenang. Lobster duri dapat merasakan medan magnet bumi dan bisa menyesuaikan diri tetap bergerak menuju arah kutub air.  </div>
+  <div id="jawabanbenar5" class="canvas" style=" display:none; background-color:rgb(255, 255, 255);border-color:green;color: green;">
+    <h2>Jawaban benar</h2>
+    Dalam tubuh bakteri Magnetotactic Bacteria (MTB) terdapat organel khusus yang disebut magnetosome. Pada magnetosome tersusun atas senyawa magnetite ($Fe_{3}O_{4}$) atau greigite ($Fe_{3}S_{4}$).   </div>
+
+
+</div>
+<br>
+  <center>
+  <button class="btnkecil" style="background:black;" id="tombol1" onclick="soal1_sow()" type="button">1</button>
+  <button class="btnkecil" style="background: #04709b;" id="tombol2" onclick="soal2_sow()" type="button">2</button>
+  <button class="btnkecil" style="background: #04709b;"id="tombol3" onclick="soal3_sow()" type="button">3</button>
+  <button class="btnkecil" style="background: #04709b;"id="tombol4" onclick="soal4_sow()" type="button">4</button>
+  <button class="btnkecil" style="background: #04709b;"id="tombol5" onclick="soal5_sow()" type="button">5</button>
+  </center>
+  <br>
+</div>
+    <!--untuk mengakses file javascript-->
+    <script src="1.js"></script>
+    <script src="latihan.js"></script>
+    <script src="../navigasi.js"></script>
+
+    <!--framework untuk MathJax/latex (untuk menulis rumus)-->
+    <script type="text/javascript" async
+      src="../../../cdn.mathjax.org/mathjax/latest/MathJaxb198.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+        });
+    </script>
+    <!--footer halaman yang berisi navigasi page halaman-->
+    <div class="footer">
+      <div class="navigasibawah">
+        <center>
+          <a href="1.html"><button >Sebelumnya</button></a>
+          <a href="1.html"><button >1</button></a>
+          <a href="2.html"><button class="btn1">2</button></a>
+          <a href="Kuis/kuis1.html"><button >Selanjutnya</button></a>
+        </center>
+      </div>
+      </div>
+  </body>
+
+<!-- Mirrored from kemagnetan.github.io/bahan/migrasi hewan/2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Dec 2022 10:28:52 GMT -->
+</html>
